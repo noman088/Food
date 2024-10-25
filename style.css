@@ -9,6 +9,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    /* width: 1528px;
+    height: 61px; */
+    overflow-x: hidden;
 }
 
 .left {
@@ -40,21 +44,22 @@
 
 .right {
     /* background-color: black; */
-    
+
     /* border-radius: 30%; */
     color: white;
+    display: flex;
 
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
 }
 .right-both {
     background-color: black;
     color: white;
-    /* border-radius: 50%; */
+    border-radius: 30%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-evenly; */
     gap: 20px;
+    align-items: center;
     height: 61px;
     width: 234px;
 }
