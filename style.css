@@ -49,6 +49,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    /* width: 1528px;
+    height: 61px; */
+    overflow-x: hidden;
 }
 .location{
     position: relative;
@@ -69,9 +73,13 @@ header{
     font-size: 24px;
     color: #fc8a06;
 
+
 }
 
 .left>image {
+=======
+.left > image {
+
     height: 53px;
     width: 215px;
 }
@@ -97,13 +105,18 @@ header{
 
 .right {
     color: white;
-    justify-content: baseline;
-    align-items: center;
 
+    justify-content: baseline;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .right-both {
     background-color: #03081F;
+    background-color: #03081f;
     color: white;
     display: flex;
     margin-right: 30px;
